@@ -1,0 +1,28 @@
+# Dependencies & build artifacts — reinstalled / regenerated inside the image
+node_modules
+.next
+out
+build
+coverage
+
+# Secrets & local env — passed at runtime via `--env-file`, never baked in
+.env
+.env.*
+
+# Version control & editor/tooling
+.git
+.gitignore
+.claude
+.vscode
+.idea
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# Local-only files
+dbtest.cjs
+*.log
+npm-debug.log*
+README.md
