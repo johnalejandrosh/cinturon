@@ -250,6 +250,3 @@ grado efeméride:
   para ver el contador animarse).
 - **Índice de riesgo:** combinación heurística de PHA/NEO, MOID y tamaño.
 
----
-
-🤖 Generado con [Claude Code](https://claude.com/claude-code)
